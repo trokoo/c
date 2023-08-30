@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <link rel="stylesheet" href="../css/hover.css">
+</head>
+<body>
+    <img class="img1" src="../img/chivochophodie.png" alt="" width="400">
+    <img name="grande" class="img2" src="../img/chivochophodie.png" alt="" width="500">
+
+    <script type="text/javascript">
+        document.onmousemove = ver;
+
+        function ver(e) {
+            var x, y, x1, x2, y1, y2;
+            fact = 500/400;
+            opp = 100;
+
+            if (e == null) e = window.event;
+            x = e.clientX;
+            y = e.clientY;
+
+            x1 =- opp+(x)*fact;
+            y1 =- opp+(y)*fact;
+            x2 =+ opp+(x)*fact;
+            y2 =+ opp+(y)*fact;
+
+            document.images.grande.style.display = "inline";
+            document.images.grande.style.left = (x) * (1-fact);
+            document.images.grande.style.top = (y) * (1-fact);
+            document.images.grande.style.clip = "rect("+y1+"px, "+x2+"px, "+y2+"px, "+x1+"px)";
+        }
+    </script>
+</body>
+</html>
