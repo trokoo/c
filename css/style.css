@@ -955,7 +955,7 @@ left: 10px;
 footer{
     width: 100%;
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     left: 0;
     padding: 1.5rem;
     background-color: black;
