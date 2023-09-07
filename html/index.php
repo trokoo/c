@@ -74,6 +74,7 @@ include('controladores.php');
         <li><a href="contacto.php">Contactanos</a></li>
         <?php if (($_SESSION)) :?>
         <li><a href="close.php"> Cerrar sesion </a></li>
+        <li><a href="pedidos.php">Pedidos</a></li>
         <?php else:?>
         <li><a href="registro.php">Registrarme</a></li>
         <?php endif?>
@@ -129,7 +130,7 @@ include('controladores.php');
 
     
 
- <!--GALERIA DE IMAGENES ANIMADA (Si queres que te redireccione a otra pagina ya te hice un ejemplo de como podes hacer)-->
+ <!--GALERIA DE IMAGENES ANIMADA-->
 
  <h3 class="h3">#chivochop2023</h3>
  <h1 class="separador">Camina con estilo</h1>
@@ -216,10 +217,10 @@ include('controladores.php');
 
 <img src="../img/logo.png" alt="" class="logo">
 <div class="social-icons-container">
-  <a href="" class="social-icon"></a>
+  <a href="#" class="social-icon"></a>
   <a href="https://www.instagram.com/chivochop/" class="social-icon"></a>
-  <a href="" class="social-icon"></a>
-  <a href="" class="social-icon"></a>
+  <a href="#" class="social-icon"></a>
+  <a href="#" class="social-icon"></a>
 </div>
 
 <span class="copyright">&copy;2023 ChivoChop - Todos los derechos reservados</span>

@@ -150,7 +150,7 @@ if (isset($_SESSION["user"])) {
                        </label>
                        <label>
                            <i class='bx bxs-lock'></i>
-                           <input type="passwrod" placeholder="Contraseña" name="pass" required>
+                           <input type="passwrod" placeholder="Contraseña" name="pass" minlength="8" required>
                        </label>
                        <input type="submit" value="Registrarme" name="registro">
                      

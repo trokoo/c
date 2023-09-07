@@ -77,6 +77,7 @@ $tipo = $_GET['tipo'];
         
         <?php if (($_SESSION)) :?>
         <li><a href="close.php"> Cerrar sesion </a></li>
+        <li><a href="pedidos.php">Pedidos</a></li>
         <?php else:?>
         <li><a href="registro.php">Registrarme</a></li>
         <?php endif?>

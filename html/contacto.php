@@ -68,6 +68,7 @@
 
     
         <li><a href="">Contactanos</a></li>
+        <li><a href="pedidos.php">Pedidos</a></li>
         <li><a href="close.php"> Cerrar sesion </a></li>
   
         <li class="imagen"><a href="carrito.php"><img src="../img/carrito.png" alt=""  /></a></li>

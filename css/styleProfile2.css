@@ -56,17 +56,22 @@
     align-items: start;
 }
 
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
 .chaosito{
 
 position: relative;
 display: flex;
 justify-content: end;
 align-items: center !important;
-
-
-text-decoration: none;
-color: inherit;
-
+gap: 50px;
 margin: 20px auto;
 }
 
@@ -107,7 +112,7 @@ margin: 20px auto;
     display: block;
     width: 100%;
     font-size: 1.75em;
-    margin-bottom: 0.5rem;
+    margin-bottom: 3rem;
     position: relative;
     top: 13px;
 }

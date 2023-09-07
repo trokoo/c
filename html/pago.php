@@ -105,6 +105,10 @@ function googleTranslateElementInit(){
 </div>
     <!--End Nav-->
 
+
+
+  
+
   <main class="main-container">
     
 
@@ -112,7 +116,7 @@ function googleTranslateElementInit(){
     <section class="main-container__form-section">
       <form method="post" class="form">
         <label class="form__label" for="cardholder" >Nombre del titular de la tarjeta</label>
-        <input class="form__input" translate="no" type="text" name="cardholder" id="cardholder" placeholder="Nombre completo" maxlength="18">
+        <input class="form__input" translate="no" type="text" name="cardholder" id="cardholder" placeholder="Nombre completo" maxlength="20">
         <div class="form__cardholder--error error"></div>
 
         <label class="form__label" for="cardNumber">Numero de tarjeta</label>
@@ -180,23 +184,6 @@ function googleTranslateElementInit(){
     window.history.replaceState(null,null,window.location.href);
   </script>
 
-  <!--Footer-->
-  <footer>
-
-<img src="../img/logo.png" alt="" class="logo">
-<div class="social-icons-container">
-  <a href="" class="social-icon"></a>
-  <a href="https://www.instagram.com/chivochop/" class="social-icon"></a>
-  <a href="" class="social-icon"></a>
-  <a href="" class="social-icon"></a>
-</div>
-
-<span class="copyright">&copy;2023 ChivoChop - Todos los derechos reservados</span>
-
-
-</footer>
-
-<!--End Footer-->
 
 </body>
 

@@ -33,6 +33,8 @@ if(!isset($_SESSION['user']['id'])){
             <h3 class="titulo">Usuario ChivoChop</h3>
 
             <div class="yes">
+
+
             <p class="texto"><strong>Nombre de usuario:</strong> 
 
             <span class="name" translate="no"><?php if (true) {
@@ -45,8 +47,13 @@ if(!isset($_SESSION['user']['id'])){
 
            
             </div>
-            <a href="index.php" class="chaosito">Regresar</a>
-            <a href="close.php" class="chaosito"> Cerrar sesion </a> 
+
+
+        <div class="chaosito">
+            <a href="index.php" class="out">Regresar</a>
+            <a href="close.php" class="out"> Cerrar sesion </a> 
+        </div>
+            
         </div>
 
     </div>

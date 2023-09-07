@@ -108,6 +108,15 @@ if (isset($_POST['esperaCarrito'])) {
     header("Location: carrito.php", true, 303);
 }
 
+//Eliminar notify
+
+if (isset($_POST['eliminarNotify'])) {
+    $id = $_POST['id'];
+
+    $sql = "DELETE FROM carrito WHERE id = '$id'";
+    $run = mysqli_query($connex, $sql);
+    header("Location: pedidos.php", true, 303);
+}
 
 //Producto carrito
 
@@ -199,13 +208,13 @@ if (isset($_POST['agregarCarrito'])) {
 //Contactos
 
 if (isset($_POST['confirmPay'])) {
-    $sql = "DELETE FROM carrito WHERE id_user = {$_SESSION["user"]["id"]} AND estado = 'carrito'";
+    $sql = "UPDATE carrito SET estado = 'comprado' WHERE id_user = {$_SESSION["user"]["id"]} AND estado = 'carrito'";
     $run = mysqli_query($connex, $sql);
 
     if ($run) {
         echo'<script type="text/javascript">
     alert("¡Pago realizado exitosamente!");
-    window.location.href="carrito.php";
+    window.location.href="pedidos.php";
     </script>';
     }
 }

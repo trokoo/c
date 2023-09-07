@@ -284,8 +284,8 @@ body {
   background-repeat: no-repeat;
   height: 240px;
   position: relative;
-  bottom: 300px;
-  right: 470px;
+  bottom: 600px;
+  right: 500px;
 }
 
 @media (min-width: 1440px) {
@@ -307,32 +307,43 @@ body {
 }
 
 .card {
-  width: 288px;
-  height: 160px;
+  width: 640px;
+  height: 235px;
   color: #ffffff;
   padding: 20px;
   background-image: url("../img/bg-card-front.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  top: 126px;
-  left: 18px;
+  top: 169px;
+  left: 219px;
   z-index: 1;
   letter-spacing: 2px;
 }
-@media (min-width: 1440px) {
-  .card {
-    width: 450px;
-    height: 247px;
-    padding: 30px;
-  }
+
+
+.jefediv{
+display: flex;
+justify-content: center;
+align-items: center;
 }
-@media (min-width: 1440px) {
-  .card {
-    top: 187px;
-    left: 167px;
-  }
+
+.jefe1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.jefe2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
 .card__logo img{
   width: 55px;
   margin-bottom: 10px;
